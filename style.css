@@ -4,7 +4,7 @@
             box-sizing: border-box;
         }
 .row{
-    --bs-gutter-x: 0rem !important;
+    --bs-gutter-x: 0 !important;
 }
         html {
             scroll-behavior: smooth;
@@ -1115,6 +1115,8 @@
             transition: transform 0.18s cubic-bezier(.4, 0, .2, 1), box-shadow 0.18s cubic-bezier(.4, 0, .2, 1);
             overflow: hidden;
             background-color: #45b7d1;
+            width: 92%;
+            margin: 0 auto;
         }
 
         .service-card:hover {
